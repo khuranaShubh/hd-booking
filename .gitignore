@@ -1,0 +1,33 @@
+# === Common ignores ===
+node_modules
+.env
+.env.local
+dist
+build
+.vite
+.cache
+.next
+out
+
+# === Logs ===
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# === System & editor files ===
+.vscode/
+.DS_Store
+Thumbs.db
+
+# === TypeScript build info ===
+*.tsbuildinfo
+
+# === Frontend specific ===
+hd-booking/node_modules
+hd-booking/.env
+hd-booking/dist
+
+# === Backend specific ===
+server/node_modules
+server/.env
+server/logs
